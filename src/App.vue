@@ -72,6 +72,10 @@ const exportCardAsImage = () => {
   </v-card>
   <br>
   <v-btn @click="exportCardAsImage">导出为图片</v-btn>
+  <br><br>
+  晚江右海作品 2022-{{new Date().getFullYear()}} 基于MIT协议开源<br>
+  <a href="https://github.com/YuxiangWang0525/bingo-game-generator" target="_blank">GitHub</a>
+  <br>
 </template>
 
 <style scoped>
